@@ -18,7 +18,7 @@ int enqueue(vector<int> queue,int newElement, int size){
 }
 int dequeue(vector<int> queue, int size){
 	head = 0;
-	queue.erase(queue.begin() + head);
+	queue.erase(queue.begin() + head); 
 	queue.resize(size-1);
 	for(int i=0; i<queue.size();i++){
 		cout<<queue[i]<<" ";
