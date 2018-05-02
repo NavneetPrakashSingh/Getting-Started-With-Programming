@@ -10,15 +10,9 @@ Created on Tue May  1 09:21:43 2018
 
 def separateNumbers(s):
     # Complete this function
-    #numberList = list()
-    #for values in range(100):
-    #    numberList.append(values)
-    print(sorted(s))
-    if(sorted(s)):
-        print("sorted")
-    else:
-        print("not sorted")
-    
+    numberList = list()
+    for values in range(100):
+        numberList.append(values)
     
     
 
